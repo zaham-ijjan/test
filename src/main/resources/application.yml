@@ -1,0 +1,4 @@
+spring.main.allow-bean-definition-overriding: true
+
+siren :
+  url : https://entreprise.data.gouv.fr/api/sirene/v1/siret
