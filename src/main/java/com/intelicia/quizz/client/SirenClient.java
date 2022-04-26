@@ -15,7 +15,6 @@ public class SirenClient {
     private RestTemplate restTemplate  = new RestTemplate();
 
     public Object getSiret(String siret){
-
         return restTemplate.getForEntity(url + "/" + siret,Object.class);
     }
 }
